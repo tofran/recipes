@@ -9,7 +9,7 @@ module.exports = Ferdi => {
     let direct = 0;
 
     const notificationButton = document.querySelector(
-      "#app button[data-test-id='notificationsCount'"
+      "#app button[data-test-id='notificationsCount']"
     );
 
     if (notificationButton) {
